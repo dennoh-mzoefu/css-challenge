@@ -50,6 +50,7 @@ li {
   background-color: rgb(74, 175, 243);
   color: white;
   padding: 15px;
+  border-color: rgb(74, 175, 243);
   border-radius: 7px;
 }
 .container {
@@ -248,4 +249,237 @@ li {
   border: none;
   border-radius: 5px;
   background-color: rgb(74, 175, 243);
+}
+.subscribeInfo {
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscribeInfo > p {
+  margin: 0;
+}
+.checkbox > img {
+  width: 30px;
+  margin-right: 10px;
+}
+.plan {
+  display: flex;
+  align-items: center;
+}
+.blueButton > button {
+  margin: auto;
+  padding-left: 85px;
+  padding-right: 85px;
+  /* width: max-content; */
+}
+.box2 {
+  height: 90vh;
+  margin-top: -5.6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(1, 10, 48);
+  align-items: center;
+  width: max-content;
+  border: 0.8px solid;
+  border-color: rgb(74, 175, 243);
+  padding: 30px 20px 30px 20px;
+  border-radius: 10px;
+  color: rgb(229, 226, 226);
+}
+.box1 {
+  margin: 1px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  border: 0.8px solid;
+  border-color: rgb(74, 175, 243);
+  padding: 30px 20px 30px 20px;
+  border-radius: 10px;
+}
+.wholePlan {
+  height: 100vh;
+  background-color: rgba(241, 241, 240, 0.4);
+}
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.upperPart > p {
+  margin: 0;
+}
+.upperPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.innerPrice > p {
+  margin: 0;
+}
+.prices > h1 {
+  font-size: 2.5rem;
+  color: rgb(74, 175, 243);
+}
+
+.innerPrice {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding: 0;
+  color: rgb(74, 175, 243);
+}
+.prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lowerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.branches {
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(1, 10, 48);
+}
+.upperPartBranches {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.branchdetails h1 {
+  font-size: 2.2rem;
+}
+.branchdetails {
+  width: 30%;
+  color: white;
+}
+.worldMap > img {
+  width: 400px;
+  /* background-color: white; */
+  object-fit: contain;
+}
+.contact {
+  height: 110vh;
+}
+
+.upperContact1 {
+  background-color: rgba(241, 241, 240, 0.4);
+  height: 70vh;
+}
+.upperContact {
+  display: flex;
+  /* flex: 1; */
+  justify-content: center;
+  /* position: absolute; */
+}
+.lowerContact {
+  background-color: white;
+  height: 40vh;
+}
+.bookApointment {
+  margin-top: -50vh;
+  display: flex;
+  background: white;
+  width: 60%;
+  height: 85vh;
+}
+.bookApointment img {
+  height: 80vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 100%;
+}
+.form input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 10px auto;
+  padding: 13px;
+  border: 0.9px solid rgba(170, 170, 170, 0.4);
+  border-radius: 5px;
+  background-color: rgba(241, 241, 240, 0.4);
+}
+.form select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  margin: 5px auto;
+  padding: 15px 35px 15px 15px;
+  border: 0.9px solid rgba(170, 170, 170, 0.4);
+  border-radius: 5px;
+  background-color: rgba(241, 241, 240, 0.4);
+}
+.form p {
+  width: 74%;
+  text-align: left;
+  margin: auto;
+}
+.form h1 {
+  margin: 30px auto;
+}
+.appointmentBtn > button {
+  margin-top: 20px;
+  width: 76%;
+}
+.upperLowerPart h2,
+.navLeft2 {
+  margin-top: 100px;
+}
+.upperLowerPart {
+  padding: 10px;
+  margin-top: 320px;
+  display: flex;
+
+  justify-content: space-evenly;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+}
+.upperLowerPart h2,
+.upperLowerPart p {
+  margin-bottom: 0;
+  /* background-color: green; */
+}
+.upperLowerPart p {
+  margin-top: 10px;
+}
+.contactList {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 80%;
+}
+.column > h3 {
+  color: rgb(1, 10, 48);
+}
+.column {
+  color: rgb(150, 148, 148);
+  font-weight: 600;
+}
+.column .column p {
+  margin: 5px;
+}
+.lowerContact {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.footer {
+  /* height: 15vh; */
+  padding: 10px;
+  background-color: blue;
+  /* background-color: rgba(241, 241, 240, 0.4); */
 }
